@@ -1,0 +1,74 @@
+{
+    "name": "LIVE WALLPAPER",
+    "description": "soon with new wallpaper",
+    "developer":
+    {
+        "name": "andres23_007"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "background_music":
+            [
+                "music/dark_night.mp3"
+            ],
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 80
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 16
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 88
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/astro.webm",
+                    "first_frame": "wallpaper/planetary.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/planetary.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
