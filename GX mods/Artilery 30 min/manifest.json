@@ -1,0 +1,25 @@
+{
+    "name": "30min calming artilery",
+    "description": "literally 30 min of artilery and gunfire",
+    "developer":
+    {
+        "name": "andres23_007"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "background_music":
+            [
+                "music/artilery.mp3"
+            ]
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
